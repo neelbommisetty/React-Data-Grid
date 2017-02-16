@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import GridComponent from './GridComponent';
 import './App.css';
+
 //react component as a stateless function for example purpose
 const cElement = (props) => {
   return (
     <div>
       x:{props.data.x},
-     y:{props.data.y}
+      y:{props.data.y}
     </div>
   );
 }
